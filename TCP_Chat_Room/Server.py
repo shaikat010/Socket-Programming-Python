@@ -3,7 +3,7 @@ import socket
 
 
 #localhost
-host = "127.0.0.1"
+host = "localhost"
 # do not take any reserved or well known ports
 port = 55555
 
