@@ -3,7 +3,7 @@ import socket, cv2, pickle, struct
 
 # create socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host_ip = 'get your ip here'  # paste your server ip address here
+host_ip = 'get your ip here, it is the same as the host ip of server.py in this project!'  # paste your server ip address here
 port = 9999
 client_socket.connect((host_ip, port))  # a tuple
 data = b""
