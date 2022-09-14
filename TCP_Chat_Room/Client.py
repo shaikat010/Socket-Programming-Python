@@ -6,7 +6,7 @@ nickname = input("Choose your nickname before joining server: ")
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 #this is the ip of the server that we want to connect to
-client.connect(('127.0.0.1',55555))
+client.connect(('localhost',55555))
 
 def receive():
 
