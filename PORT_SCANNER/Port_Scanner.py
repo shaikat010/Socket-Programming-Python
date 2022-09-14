@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 #putting the default geteway or the localhost
-target = "192.168.31.1"
+target = "IP"
 
 def portscanner(port):
     try:
